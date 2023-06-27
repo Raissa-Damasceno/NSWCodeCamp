@@ -28,7 +28,7 @@ public class ApiTest {
                 .param("state", "VIC")
                 .when()
                 .get(url)
-                .then().assertThat().body("localities.locality[0].postcode",equalTo(5358));
+                .then().assertThat().body("localities.locality[0].postcode",equalTo(3002));
     }
 }
 
